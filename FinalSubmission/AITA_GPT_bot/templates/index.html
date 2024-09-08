@@ -1,0 +1,17 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %} 
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Welcome to the AITA GPT!</h1>
+        {{ wtf.quick_form(form) }}
+        {% if response_text %}
+            <h2>Your Generated Post:</h2>
+            <p>{{ response_text }}</p>
+        {% endif %}
+    </div>
+{% endblock %}

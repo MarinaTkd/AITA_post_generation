@@ -1,0 +1,11 @@
+,generated_posts_llama,generated_posts_gpt_mini,generated_posts_gpt_4o
+Tone_and_Language_Colloquialness,4.89,4.9,4.95
+Plausibility,4.91,4.9,4.95
+Abbreviation_Usage,3.23,3.45,3.66
+Readability,4.87,4.9,4.95
+Specificity,4.15,4.29,4.65
+Conflict_Clarity,4.95,4.9,4.95
+Moral_Ambiguity,4.04,4.18,4.32
+Subreddit_Alignment,4.94,4.9,4.95
+Emotional_Resonance,4.06,4.2,4.34
+Total_Score,40.040000000000006,40.62,41.72000000000001
